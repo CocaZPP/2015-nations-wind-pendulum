@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\FWlib\inc -I..\startup -I..\Motor -I..\CM3
+-I E:\STM32单片机\AAAAAAAA风力摆\风力摆123456\USER\RTE
+-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-I D:\MDK5\ARM\CMSIS\Include
+-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d "LCD.C"
